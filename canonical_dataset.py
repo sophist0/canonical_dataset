@@ -1,6 +1,6 @@
 import copy
 
-class Dataset():
+class CanonicalDataset():
 
     def __init__(self):
         self.canonical_dataset = None
@@ -119,7 +119,7 @@ class Dataset():
                     new_dataset[subkey_1][subkey_2].append(self.canonical_dataset[key])
         return new_dataset
  
-dataset = Dataset()
+dataset = CanonicalDataset()
 #print()
 #print("--------------------------------------------------")
 #print("dataset")
